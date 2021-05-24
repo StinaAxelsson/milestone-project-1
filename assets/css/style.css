@@ -10,25 +10,62 @@ body{
     font-family: Roboto, sans-serif;
     font-weight: 100;
     color: #47476b;
-}   
+}  
+/*Header and nav link styling example 2*/
+
+#menu{
+    overflow: hidden;
+    background-color: rgba(153, 0, 255, .4);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#menu a{
+    float: right;
+    color: #7a00cc;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menu a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
 /* Header and nav link styling */
 
-h1 {
+/*h1 {
     font-family: Lato, sans-serif;
     color: #7a00cc;
     letter-spacing: 3px;
 }
+
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 30px;
 }
 
 #menu {
     font-size: 120%;
     letter-spacing: 3px;
 }
+#menu, #logo{
+    line-height: 100px;
+}
 
 #menu li{
     float: right;
     list-style-type: none;
+    margin-right: 30px;
 }
+#menu a{
+    text-decoration: none;
+    color: #7a00cc;
+}
+#menu a:hover{
+    border-bottom: 1px solid #47476b;
+}
+.active{
+    border-bottom: 1px solid #47476b;
+ }  */
+
