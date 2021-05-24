@@ -22,3 +22,13 @@ h1 {
     float: left;
     font-size: 200%;
 }
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+#menu li{
+    float: right;
+    list-style-type: none;
+}
