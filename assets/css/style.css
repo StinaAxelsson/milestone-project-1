@@ -31,3 +31,11 @@ body {
   .navbar ul li:hover{
     background-color: rgba(122, 0, 204, 0.6);
   }
+  .active{
+
+  }
+  video {
+    position: left;
+    width: 230px;
+    height: 100px;
+  }
