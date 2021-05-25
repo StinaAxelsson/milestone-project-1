@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
   }
-
+/* HEADER AND MENU NAVIGATION */
   .navbar{
     width: 100%;
     padding: 20px;
@@ -41,4 +41,37 @@ body {
     width: 230px;
     height: 100px;
     margin: 10px 30px;
+  }
+
+  /* FOOTER */
+
+footer{
+  position: fixed;
+  /*padding: 10px 10px 0px 10px;*/
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/ 
+  height: 75px;
+  background: rgba(0, 0, 0, .3);
+}
+
+ /* footer{
+    height: 150px;
+    background-color: rgba(black, black, black, 0.5);
+    position: fixed;
+    text-align: center;
+  }*/
+
+  .social-links{
+    text-align: center;
+  }
+  .social-links > li {
+    display: inline-block;
+  }
+
+  .social-links i{
+    font-size: 160%;
+    color: #7a00cc;
+    padding: 10px 50px;
+    margin-bottom: 20px;
   }
