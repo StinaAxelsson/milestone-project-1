@@ -14,7 +14,6 @@ body {
     position: fixed;
     top: 0px;
     text-align: center;
-    transition: .5s;
   }
 
   .navbar ul li{
@@ -29,13 +28,17 @@ body {
   }
 
   .navbar ul li:hover{
-    background-color: rgba(122, 0, 204, 0.6);
-  }
-  .active{
+    /*background-color: rgba(122, 0, 204, 0.6);*/
+    font-size: 30px;
 
+  }
+  .active {
+    color: white;
+    font-size: 30px;
   }
   video {
     position: left;
     width: 230px;
     height: 100px;
+    margin: 10px 30px;
   }
